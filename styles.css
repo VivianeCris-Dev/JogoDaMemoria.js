@@ -234,6 +234,17 @@ h3 {
 @media (max-width: 412px) {
   .header-content {
     gap: 5px;
+    font-size: 12px;
+  }
+
+  .card-turn, .card-coast {
+    width: 65px;
+    height: 85px;
+  }
+}
+
+@media (max-width: 376px) {
+  .header-content {
     font-size: 9px;
   }
 
