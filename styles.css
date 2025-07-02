@@ -160,19 +160,22 @@ h3 {
   }
 }
 
+@media (max-width: 900px) {
+  .card-turn, .card-coast {
+    width: 80px;
+    height: 120px;
+  }
+
+  .difficulty-select {
+    font-size: 40px;
+  }
+
+}
+
 
 @media (max-width: 790px) {
   .card-container {
     gap: 5px;
-  }
-
-  .difficulty-select {
-    font-size: 60px;
-  }
-
-  .card-turn, .card-coast {
-    width: 100px;
-    height: 155px;
   }
 
   .game-over, .congratulations {
@@ -181,15 +184,6 @@ h3 {
 }
 
 @media (max-width: 670px) {
-  .card-turn, .card-coast {
-    width: 90px;
-    height: 125px;
-  }
-
-  .difficulty-select {
-    font-size: 50px;
-  }
-
   .game-over, .congratulations {
     width: 500px;
   }
