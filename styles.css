@@ -7,7 +7,6 @@
 body {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,10 +17,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  background-color: rgb(86, 2, 138);
-  color: rgb(237, 45, 45);
-
+  background-color: rgba(13, 30, 189, 0.412);
+  color: white;
   height: 80px;
   width: 100%;
   padding: 20px;
@@ -29,14 +26,14 @@ header {
 
 .difficulty-select {
   cursor: pointer;
-  color: rgb(237, 45, 45);
+  color: black;
+  font-size: 90px;
 }
 
 .header-content {
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 100px;
 }
 
@@ -46,8 +43,8 @@ header {
   justify-content: center;
   align-items: center;
   position: fixed;
-
   background-color: rgba(74, 72, 72, 0.477);
+  border-radius: 10px;
   width: 100%;
   height: 100%;
 }
@@ -57,7 +54,8 @@ header {
 }
 
 h3 {
-  border: 2px solid rgba(78, 78, 76, 0.863);
+  border: 2px solid rgba(130, 130, 124, 0.863);
+  border-radius: 10px;
   padding: 10px;
   height: 40px;
   width: 300px;
@@ -69,7 +67,6 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   gap: 20px;
   background-color: white;
   width: 400px;
@@ -81,9 +78,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: wheat;
-
   min-height: calc(100% - 80px);
   width: 100%;
 }
@@ -92,8 +87,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: rgb(54, 0, 76);
+  background-color: rgb(169, 188, 249);
   min-height: calc(100% - 80px);
   width: 100%;
 }
@@ -103,17 +97,14 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  background-color: rgb(54, 0, 76);
-
+  background-color: rgb(169, 188, 249);
   gap: 10px;
   min-height: calc(100% - 80px);
   width: 100%;
 }
 
 .card-turn {
-  background-color: rgb(82, 103, 244);
-
+  background-color: rgba(13, 31, 189, 0.237);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +114,6 @@ h3 {
   width: 130px;
   height: 185px;
   border-radius: 10px;
-
   cursor: pointer;
 }
 
@@ -141,4 +131,128 @@ h3 {
 
 .card-coast:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 1280px) {
+  .card-turn, .card-coast {
+    width: 120px;
+    height: 165px;
+  }
+
+  .game-over, .congratulations {
+    width: 1000px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-turn, .card-coast {
+    width: 90px;
+    height: 145px;
+  }
+
+  .difficulty-select {
+    font-size: 80px;
+  }
+
+  .game-over, .congratulations {
+    width: 750px;
+  }
+}
+
+
+@media (max-width: 790px) {
+  .card-container {
+    gap: 5px;
+  }
+
+  .difficulty-select {
+    font-size: 60px;
+  }
+
+  .card-turn, .card-coast {
+    width: 100px;
+    height: 155px;
+  }
+
+  .game-over, .congratulations {
+    width: 600px;
+  }
+}
+
+@media (max-width: 670px) {
+  .card-turn, .card-coast {
+    width: 90px;
+    height: 125px;
+  }
+
+  .difficulty-select {
+    font-size: 50px;
+  }
+
+  .game-over, .congratulations {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-turn, .card-coast {
+    width: 80px;
+    height: 115px;
+  }
+
+  .game-over, .congratulations {
+    width: 400px;
+  }
+}
+
+@media (max-width: 481px) {
+  .header-content {
+    gap: 50px;
+  }
+
+  .difficulty-select {
+    font-size: 30px;
+  }
+
+  .card-turn, .card-coast {
+    width: 73px;
+    height: 104px;
+  }
+
+  .game-over, .congratulations {
+    width: 300px;
+  }
+
+  .modal-content {
+    width: 340px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 376px) {
+  .header-content {
+    gap: 10px;
+  }
+
+  .card-turn, .card-coast {
+    width: 65px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 321px) {
+  .card-container {
+    gap: 3px;
+  }
+
+  .card-turn, .card-coast {
+    width: 45px;
+    height: 70px;
+  }
+
+  .game-over, .congratulations {
+    width: 300px;
+    height: 200px;
+  }
 }
