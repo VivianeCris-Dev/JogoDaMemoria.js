@@ -20,7 +20,7 @@ header {
   align-items: center;
   background-color: rgba(13, 30, 189, 0.412);
   color: white;
-  height: 100px;
+  height: 80px;
   width: 100%;
   padding: 20px;
 }
@@ -79,7 +79,7 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: wheat;
-  min-height: calc(100% - 100px);
+  min-height: calc(100% - 80px);
   width: 100%;
 }
 
@@ -99,7 +99,7 @@ h3 {
   align-items: center;
   background-color: rgb(169, 188, 249);
   gap: 10px;
-  min-height: calc(100% - 100px);
+  min-height: calc(100% - 80px);
   width: 100%;
   padding: 10px;
 }
@@ -221,7 +221,7 @@ h3 {
 
   .card-turn, .card-coast {
     width: 45px;
-    height: 95px;
+    height: 65px;
   }
 }
 
