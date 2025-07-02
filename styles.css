@@ -234,12 +234,12 @@ h3 {
 @media (max-width: 376px) {
   .header-content {
     gap: 5px;
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .card-turn, .card-coast {
-    width: 55px;
-    height: 65px;
+    width: 45px;
+    height: 55px;
   }
 }
 
