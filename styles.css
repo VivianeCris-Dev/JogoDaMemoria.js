@@ -231,7 +231,7 @@ h3 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 412px) {
   .header-content {
     gap: 5px;
     font-size: 9px;
