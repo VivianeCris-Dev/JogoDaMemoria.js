@@ -223,8 +223,8 @@ h3 {
   }
 
   .card-turn, .card-coast {
-    width: 55px;
-    height: 75px;
+    width: 45px;
+    height: 55px;
   }
 }
 
@@ -233,10 +233,6 @@ h3 {
     font-size: 9px;
   }
 
-  .card-turn, .card-coast {
-    width: 45px;
-    height: 55px;
-  }
 }
 
 @media (max-width: 321px) {
